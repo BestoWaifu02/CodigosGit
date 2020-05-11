@@ -1,0 +1,10 @@
+--------------------Comandos GIT-----------------
+		BY:BestoWaifu02
+
+1.git config --global user.name "Usuario" //Este comando es para poner el nombre del usuario a nivel global
+2.git config --global user.email "Correo@gmail.com" //Este comando es para poner el nombre del correo
+3.git init //Crea un nuevo proyecto que seria tu rama principal
+4.git status //Comando para ver el estado del proyecto puede mostrar archivos en rojo o verde segun su estado
+5.git add "nombreARCH" //comando para agregar solo un archivo a la POOL(proyecto)
+6.git add . //para agregar todos los archivos a la pool
+7. 
