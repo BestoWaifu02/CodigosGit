@@ -1,10 +1,16 @@
 --------------------Comandos GIT-----------------
 		BY:BestoWaifu02
-
+//.gitignore es un archivo que puedes agregar en tu carpeta de proyecto donde escribiras los archios 
+que git va a ignorar como lo dice su nombre y esos no se subiran 
+Ejemplo: *.psd (esto significa que ignorara todos los archivos con dichas extensiones)
+	 archivo.ext (esto tambien aplica para un archivo en especial)	  
 1.git config --global user.name "Usuario" //Este comando es para poner el nombre del usuario a nivel global
 2.git config --global user.email "Correo@gmail.com" //Este comando es para poner el nombre del correo
 3.git init //Crea un nuevo proyecto que seria tu rama principal
 4.git status //Comando para ver el estado del proyecto puede mostrar archivos en rojo o verde segun su estado
 5.git add "nombreARCH" //comando para agregar solo un archivo a la POOL(proyecto)
 6.git add . //para agregar todos los archivos a la pool
-7. 
+7.git commit -m NombreProyecto //Comando para enviar el proyecto 
+8.git rm --cached NombreProyecto //Comando para regresar a una version antes de haberla modificado
+9.git log //nos muestra los commits de el proyecto con su usuario y correo 
+10.git log --stat //muestra los commits con las detalles por ej las lineas de codigo agregadas
