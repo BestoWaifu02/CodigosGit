@@ -14,3 +14,11 @@ Ejemplo: *.psd (esto significa que ignorara todos los archivos con dichas extens
 8.git rm --cached NombreProyecto //Comando para regresar a una version antes de haberla modificado
 9.git log //nos muestra los commits de el proyecto con su usuario y correo 
 10.git log --stat //muestra los commits con las detalles por ej las lineas de codigo agregadas
+11.git log --oneline //muestra un codigo de cada comit 
+12.git checkout codigoCOMIT //para regresar a una version anterior (revertira cambios y crea una rama temporal)
+13.git branch //muestra las ramas que se tienen
+14.git checkout nombreRAMA //para regresar a la rama que quieras
+15.git checkout -b nombreRAMA //para crear una rama nueva 
+16.get merge nombreRAMA //para unir ramas
+17.git branch -d nombreRAMA //elimina rama
+18.git remote add origin https://github.com/Usuario/nombreREPO //despues de crear un repo en github se agrega el origen
